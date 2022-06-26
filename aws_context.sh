@@ -1,2 +1,3 @@
 #/bin/bash
-aws-sso-util configure populate --sso-start-url https://fugue-state.awsapps.com/start/\#/ --sso-region us-east-1 --region us-east-1
+export AWS_PROFILE=$1
+aws sts get-caller-identity
