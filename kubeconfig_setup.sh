@@ -8,13 +8,13 @@ describe_stacks () {
 }
 
 filter_stack() {
-  describe_stacks $1 | jq '.[] | select(.OutputKey | match("^fuguestate.*Command.*$";"i")) | .OutputValue'
+  describe_stacks $1 | jq -r '.[] | select(.OutputKey | match("^fuguestate.*Command.*$";"i")) | .OutputValue'
 }
 
 while true
 do
   if read line; then
-    eval $line
+    eval "$line"
   else
     break
   fi
