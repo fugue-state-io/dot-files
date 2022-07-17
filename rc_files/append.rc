@@ -1,3 +1,3 @@
 export DOT_FILES="$DOT_FILES"
 export PATH="$DOT_FILES:$PATH"
-export KUBECONTEXT="$DOT_FILES/kubecontext/"
+export KUBECONTEXT="$DOT_FILES/kubecontext/minikube/config"
