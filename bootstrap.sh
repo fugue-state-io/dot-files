@@ -8,5 +8,5 @@ mkdir -p $DOT_FILES/.workspace/
 cp ~/.zshrc $DOT_FILES/.workspace/.zshrc
 sed -i -e '/###BEGIN_FUGUE_STATE_CONFIG###/,/###END_FUGUE_STATE_CONFIG###/d' ~/.zshrc
 echo "###BEGIN_FUGUE_STATE_CONFIG###" >> ~/.zshrc
-envsubst '$DOT_FILES' < append.rc >> ~/.zshrc
+envsubst '$DOT_FILES' < $DOT_FILES/rc_files/append.rc >> ~/.zshrc
 echo "###END_FUGUE_STATE_CONFIG###" >> ~/.zshrc

@@ -1,3 +1,0 @@
-exprot PATH="$DOT_FILES:$PATH"
-export KUBECONTEST="$DOT_FILES/kubecontext/"
-source $DOT_FILES/kubecontext
