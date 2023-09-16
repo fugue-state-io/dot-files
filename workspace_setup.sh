@@ -19,3 +19,5 @@ brew update
 brew bundle --file=$DOT_FILES/deps/Brewfile
 
 $DOT_FILES/git/git_setup.sh
+
+$DOT_FILES/doctl/doctl_setup.sh
