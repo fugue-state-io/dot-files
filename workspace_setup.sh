@@ -19,5 +19,11 @@ brew update
 brew bundle --file=$DOT_FILES/deps/Brewfile
 
 $DOT_FILES/git/git_setup.sh
-
+bash
 $DOT_FILES/doctl/doctl_setup.sh
+
+cd $DOT_FILES/../
+git clone https://github.com/fugue-state-io/helm-charts.git
+git clone https://github.com/fugue-state-io/terraform.git
+git clone https://github.com/fugue-state-io/documentation.git
+git clone https://github.com/fugue-state-io/fugue-state-ui.git
