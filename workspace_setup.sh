@@ -20,3 +20,5 @@ git clone https://github.com/fugue-state-io/helm-charts.git
 git clone https://github.com/fugue-state-io/terraform.git
 git clone https://github.com/fugue-state-io/documentation.git
 git clone https://github.com/fugue-state-io/fugue-state-ui.git
+git clone https://github.com/fugue-state-io/fugue-state-api.git
+git clone https://github.com/fugue-state-io/utilities.git
